@@ -1,0 +1,53 @@
+*, *:after, *:before{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  border:2px solid blue;
+  padding: 5px;
+}
+
+body{
+  border:2px solid pink;
+  background-color: gray;
+}
+
+footer{
+  border:2px solid red;
+  padding: 5px;
+}
+
+button{
+  width: 50px;
+  height: 20px;
+}
+
+.contur{
+  border: 2px solid yellow;
+  margin: 10;
+  padding: 10;
+  align-content: center;
+  width: 200px;
+  display: inline-grid;
+  border-radius: 5px;
+  onclick:"location.href='home.html'";
+  cursor:pointer;
+}
+
+.zametki{
+  display: flex;
+
+}
+
+.dblock{
+  display: block;
+  width: 100%;
+}
+
+
+#center-content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
