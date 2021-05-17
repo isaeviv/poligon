@@ -4,8 +4,11 @@
 }
 
 header{
-  border:2px solid blue;
+  border: 2px solid blue;
   padding: 5px;
+  height: 100px;
+  display: flex;
+  flex-flow: wrap;
 }
 
 body{
@@ -21,6 +24,21 @@ footer{
 button{
   width: 50px;
   height: 20px;
+}
+
+#menu{
+  display: flex;
+  border:2px solid red;
+  width: -webkit-fill-available;
+  top: 100px; 
+  position: fixed;
+  z-index: 999;
+}
+
+.ssylki{
+  margin: auto;
+  padding:5px;
+  border: 1px solid green;
 }
 
 .contur{
