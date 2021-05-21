@@ -30,9 +30,12 @@ button{
   display: flex;
   border:2px solid red;
   width: -webkit-fill-available;
-  top: 100px; 
-  position: fixed;
+  top: 0px; 
+  position: sticky;
   z-index: 999;
+  background-color: beige;
+  padding: 2px 2px;
+
 }
 
 .ssylki{
@@ -68,4 +71,32 @@ button{
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
+}
+
+
+#novosti{
+  display:flex;
+  height: 500px;
+  margin: 5px;
+  border: 2px solid aquamarine;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.odna-novost{
+  background-color: pink;
+  border: 2px solid black;
+  width: 33%;
+  margin: inherit
+}
+
+.foto-news{
+  padding: 2px;
+  margin: 2px;
+  background-color: #381616;
+  height: 50%;
+}
+
+.text-novost{
+  margin:2px;
 }
